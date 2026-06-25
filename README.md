@@ -74,8 +74,6 @@ Evaluation Metrics:
 ```text
 brain-tumor-segmentation/
 ├── notebooks/
-├── src/
-├── images/
 ├── results/
 ├── README.md
 ├── requirements.txt
