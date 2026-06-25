@@ -74,13 +74,45 @@ Evaluation Metrics:
 ```text
 brain-tumor-segmentation/
 ├── notebooks/
-├── src/
-├── images/
 ├── results/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 ```
+
+## Development Environment
+
+This project is being developed and executed using Kaggle Notebooks.
+
+The code, preprocessing pipeline, model training, and evaluation are designed to run directly within the Kaggle environment using the BraTS 2020 dataset available through Kaggle Datasets.
+
+## Running the Project
+
+### Option 1: Run on Kaggle (Recommended)
+
+1. Open the project notebook(s) in Kaggle.
+2. Attach the BraTS 2020 dataset to the notebook.
+3. Enable GPU acceleration from:
+
+   * Settings → Accelerator → GPU
+4. Run all cells sequentially.
+
+### Option 2: Run Locally
+
+The project can also be adapted for local execution by:
+
+1. Downloading the BraTS 2020 dataset.
+2. Updating dataset paths in the notebook or source code.
+3. Installing dependencies listed in `requirements.txt`.
+4. Running the preprocessing and training notebooks/scripts.
+
+## Notes
+
+* Development and experimentation are performed on Kaggle.
+* Dataset files are not included in this repository because of their large size.
+* Model checkpoints and generated outputs are excluded from version control.
+* Progress, results, and improvements will be updated as the project evolves.
+
 
 ## Results
 
